@@ -1,0 +1,120 @@
+### Kamień milowy – październik
+**Cel: przygotowanie podstaw aplikacji oraz implementacja CRUD**
+
+- przygotowanie struktury projektu Spring Boot + React,
+- konfiguracja połączenia z bazą danych PostgreSQL/MySQL,
+- przygotowanie podstawowego modelu danych i encji,
+- implementacja podstawowych operacji CRUD,
+- przygotowanie REST API dla głównych encji,
+- implementacja rejestracji i logowania użytkowników,
+- przygotowanie podstawowego mechanizmu autoryzacji i uwierzytelniania,
+- przygotowanie podstawowego interfejsu użytkownika,
+- przygotowanie panelu użytkownika,
+- przygotowanie podstawowego panelu administratora,
+- obsługa podstawowych wyjątków i błędów REST API,
+- przygotowanie responsywnego szkieletu aplikacji.
+
+**Rezultat:** działająca aplikacja z podstawową strukturą backendu, frontendu i bazy danych oraz możliwością zarządzania podstawowymi danymi.
+
+---
+
+### Kamień milowy – listopad
+**Cel: implementacja tras rowerowych oraz funkcjonalności mapowych**
+
+- implementacja pełnego modułu tras rowerowych,
+- dodawanie, edycja, wyświetlanie i usuwanie tras,
+- dodawanie kategorii tras,
+- możliwość wprowadzania opisu, uwag i wskazówek dotyczących trasy,
+- implementacja interaktywnej mapy,
+- możliwość ręcznego wyznaczania trasy na mapie,
+- rozpoczęcie implementacji geolokalizacji użytkownika,
+- zapisywanie współrzędnych trasy w bazie danych,
+- prezentowanie przebiegu trasy na mapie,
+- możliwość dodawania zdjęć do trasy,
+- przygotowanie widoku szczegółów trasy,
+- podstawowe filtrowanie i wyszukiwanie tras.
+
+**Rezultat:** użytkownik może utworzyć trasę, określić jej przebieg na mapie, dodać opis, kategorię i zdjęcia oraz przeglądać istniejące trasy.
+
+---
+
+### Kamień milowy – grudzień
+**Cel: rozbudowa funkcjonalności społecznościowych i administracyjnych**
+
+- implementacja systemu ocen tras,
+- możliwość wystawiania ocen w pięciostopniowej skali,
+- możliwość dodawania komentarzy do ocen,
+- prezentowanie średniej oceny trasy,
+- zabezpieczenie przed wielokrotnym ocenianiem tej samej trasy przez użytkownika,
+- implementacja wyszukiwania i filtrowania tras,
+- filtrowanie według kategorii,
+- filtrowanie według lokalizacji,
+- wyszukiwanie tras znajdujących się najbliżej użytkownika,
+- rozwój panelu administratora,
+- zarządzanie użytkownikami przez administratora,
+- możliwość blokowania/usuwania użytkowników,
+- kontrola treści publikowanych przez użytkowników,
+- implementacja tablicy ogłoszeń,
+- możliwość dodawania, edycji i usuwania ogłoszeń przez administratora.
+
+**Rezultat:** aplikacja posiada podstawowe funkcje społecznościowe, rozbudowane wyszukiwanie oraz działający panel administratora.
+
+---
+
+### Kamień milowy – styczeń
+**Cel: organizowanie wspólnych wycieczek, integracja funkcjonalności oraz testowanie**
+
+- implementacja modułu wspólnych wycieczek,
+- możliwość tworzenia wydarzenia/wycieczki przez użytkownika,
+- określanie terminu, miejsca rozpoczęcia i opisu wycieczki,
+- wysyłanie zaproszeń do wybranych użytkowników,
+- możliwość potwierdzania lub odrzucania zaproszeń,
+- prezentowanie listy uczestników wycieczki,
+- integracja wszystkich głównych modułów aplikacji,
+- dopracowanie mechanizmu autoryzacji i uprawnień,
+- obsługa błędów po stronie backendu i frontendu,
+- walidacja danych w formularzach,
+- testy REST API,
+- testy najważniejszych funkcjonalności aplikacji,
+- testy integracyjne z bazą danych,
+- poprawa responsywności interfejsu,
+- poprawa użyteczności i wyglądu aplikacji.
+
+**Opcjonalnie:**
+- rozpoczęcie prac nad systemem automatycznych rekomendacji tras na podstawie lokalizacji, historii aktywności, ocen i preferowanych kategorii.
+
+**Rezultat:** kompletna funkcjonalnie wersja aplikacji, obejmująca główne wymagania projektu i gotowa do testów końcowych.
+
+---
+
+### Kamień milowy – luty
+**Cel: finalizacja projektu, testy końcowe i przygotowanie pracy**
+
+- przeprowadzenie kompleksowych testów aplikacji,
+- testowanie scenariuszy pozytywnych i negatywnych,
+- testowanie uprawnień użytkownika i administratora,
+- testowanie obsługi błędów,
+- testowanie funkcjonalności geolokalizacji i map,
+- testowanie filtrowania i wyszukiwania tras,
+- testowanie ocen i komentarzy,
+- testowanie zaproszeń na wspólne wycieczki,
+- testowanie panelu administratora,
+- poprawa znalezionych błędów,
+- optymalizacja działania aplikacji,
+- przygotowanie finalnej wersji aplikacji,
+- przygotowanie dokumentacji technicznej,
+- opis architektury systemu,
+- opis wykorzystanych technologii,
+- opis modelu danych i bazy danych,
+- opis wybranych szczegółów implementacyjnych,
+- przedstawienie interfejsu graficznego i najważniejszych funkcjonalności,
+- opis i prezentacja przeprowadzonych testów,
+- krótkie porównanie aplikacji z istniejącymi rozwiązaniami,
+- przygotowanie wniosków końcowych,
+- przygotowanie aplikacji do prezentacji/obrony.
+
+**Opcjonalnie:**
+- implementacja i prezentacja systemu automatycznych rekomendacji tras,
+- przygotowanie wersji mobilnej w React Native, jeżeli pozostały czas na to pozwoli.
+
+**Rezultat:** ukończona, przetestowana i udokumentowana aplikacja gotowa do oddania oraz prezentacji.

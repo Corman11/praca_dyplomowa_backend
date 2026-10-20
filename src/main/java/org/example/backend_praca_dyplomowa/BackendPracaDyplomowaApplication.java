@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class BackendPracaDyplomowaApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(BackendPracaDyplomowaApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(BackendPracaDyplomowaApplication.class, args);
+    }
 
 }

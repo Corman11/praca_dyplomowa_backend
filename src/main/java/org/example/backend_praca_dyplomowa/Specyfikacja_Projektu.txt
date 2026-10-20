@@ -1,0 +1,35 @@
+Celem pracy jest zaprojektowanie oraz implementacja aplikacji webowej przeznaczonej dla pasjonatów
+wycieczek rowerowych. Najważniejszą funkcjonalnością aplikacji ma być możliwość publikowania szczegółowych
+ informacji na temat atrakcyjnych tras rowerowych, rekomendowanych przez zalogowanych użytkowników.
+ Zamieszczony opis powinien zawierać trasę zarejestrowaną poprzez funkcję geolokalizacji
+ GPS albo wprowadzoną manualnie na interaktywnej mapie, kategorię (np. miejska, terenowa, turystyczna,
+ ekstremalna), dodatkowe uwagi i wskazówki oraz przykładowe zdjęcia najciekawszych miejsc na szlaku,
+ które zachęciłyby innych miłośników dwóch kółek do nowej wyprawy. W aplikacji należy zaimplementować
+  system oceny trasy, w którym autor wpisu przyznaje początkową wartość (np. gwiazdki w pięciostopniowej skali),
+  a inni zalogowani użytkownicy, po odbyciu polecanej wycieczki, mogą wystawiać swoje oceny wraz z opcjonalnym
+  komentarzem. W programie stworzyć również funkcjonalność umożliwiającą organizowanie wspólnych wycieczek
+  poprzez rozsyłanie zaproszeń (z funkcją potwierdzania) do wybranych cyklistów. Ponadto zawrzeć
+  „tablicę ogłoszeń” zarządzaną tylko przez administratora, który będzie mógł globalnie informować o
+   zbliżających się wydarzeniach (np. zlot, wyścig, inna impreza integrująca rowerzystów).
+    Panel administratora powinien pozwalać na zarządzanie użytkownikami oraz kontrolę nad treściami
+     publikowanymi w systemie. Filtrowanie tras należy wzbogacić o kryterium lokalizacyjne w celu wskazania
+     tych najbliżej położonych danego użytkownika. Opcjonalnie można zaimplementować algorytm automatycznej
+      rekomendacji na podstawie bieżącej lokalizacji użytkownika, jego historii aktywności, ocen oraz
+      preferowanych kategorii szlaków. Do przygotowania warstwy serwerowej i REST API wykorzystać
+      framework Spring Boot, po stronie frontendu bibliotekę React, a do przechowywania danych relacyjną
+       bazę danych MySQL lub PostgreSQL. Opcjonalnie stworzyć dodatkową wersję mobilną aplikacji z
+       zastosowaniem React Native. Program musi oferować zasadnicze funkcjonalności, takie jak rejestracja
+        nowych użytkowników, logowanie, panel użytkownika oraz administratora. Aplikacja powinna być
+        responsywna i dobrze prezentować się na urządzeniach o różnej rozdzielczości. W pracy
+        należy nawiązać krótko do istniejących podobnych rozwiązań, zawrzeć opis projektu, wybrane
+        szczegóły implementacyjne, a także zaprezentować stworzony interfejs graficzny użytkownika
+         oraz opisać funkcjonalności. Przedstawić testy aplikacji i wnioski końcowe.
+
+
+Kamień milowy pazdziernik -> DOkończyć CRUD
+- Interfejs Użytkonika
+- Panel Administratora
+
+
+
+Kamien milowy listopad, Grudzień - Zrobic geolokalizacja i mapy, dodac oceny i komentarze, dodac wyszukiwanie tras, dodac panel administratora
